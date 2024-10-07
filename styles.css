@@ -43,7 +43,7 @@ body {
 }
 
 
-.button {
+.copy-button {
     display: inline-block;
     outline: 0;
     text-align: center;
@@ -62,7 +62,7 @@ body {
     margin-top: 10px;
 }
 
-.button:hover {
+.copy-button:hover {
     background: linear-gradient(286deg, #127dc7, #1c6da5 50%, #034483);
     transform: scale(1.05);
 }
