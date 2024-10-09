@@ -13,7 +13,7 @@ function copyText(event) {
 }
 
 window.addEventListener('load', function() {
-    var buttons = document.querySelectorAll('.button');
+    var buttons = document.querySelectorAll('.copy-button');
     buttons.forEach(function(button) {
         button.addEventListener('click', copyText)
     });
