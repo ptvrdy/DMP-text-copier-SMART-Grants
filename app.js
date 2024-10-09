@@ -12,7 +12,7 @@ function copyText(event) {
     });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function() {
     var buttons = document.querySelectorAll('.button');
     buttons.forEach(function(button) {
         button.addEventListener('click', copyText)
